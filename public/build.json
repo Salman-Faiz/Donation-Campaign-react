@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://iili.io/JpveHoG.jpg",
+        "title": "Save the Rainforest",
+        "category": "Environment",
+        "category_bg": "#228B22",
+        "card_bg": "#F0FFF0",
+        "text_button_bg": "#006400",
+        "description": "Help us protect the rainforest and its wildlife from deforestation.",
+        "price": "$5000"
+    },
+    {
+        "id": 2,
+        "picture": "https://iili.io/JpvuCqQ.png",
+        "title": "Feed the Hungry",
+        "category": "Hunger Relief",
+        "category_bg": "#FFD700",
+        "card_bg": "#FFF8DC",
+        "text_button_bg": "#FFA500",
+        "description": "Your donation will provide meals to families in need.",
+        "price": "$3000"
+    },
+    {
+        "id": 3,
+        "picture": "https://iili.io/JpvuqLx.png",
+        "title": "Support Education for Girls",
+        "category": "Education",
+        "category_bg": "#4682B4",
+        "card_bg": "#F0F8FF",
+        "text_button_bg": "#5F9EA0",
+        "description": "Empower girls with access to education and school supplies.",
+        "price": "$7000"
+    },
+    {
+        "id": 4,
+        "picture": "https://example.com/campaign4.jpg",
+        "title": "Disaster Relief Fund",
+        "category": "Disaster Relief",
+        "category_bg": "#DC143C",
+        "card_bg": "#FAEBD7",
+        "text_button_bg": "#B22222",
+        "description": "Provide emergency aid and support to disaster-affected areas.",
+        "price": "$10000"
+    },
+    {
+        "id": 5,
+        "picture": "https://example.com/campaign5.jpg",
+        "title": "Animal Rescue",
+        "category": "Animal Welfare",
+        "category_bg": "#FF4500",
+        "card_bg": "#FFE4B5",
+        "text_button_bg": "#CD5C5C",
+        "description": "Help rescue and rehabilitate abandoned and abused animals.",
+        "price": "$4000"
+    },
+    {
+        "id": 6,
+        "picture": "https://iili.io/JpvkLvI.webp",
+        "title": "Clean Water for All",
+        "category": "Clean Water",
+        "category_bg": "#1E90FF",
+        "card_bg": "#F0FFFF",
+        "text_button_bg": "#4682B4",
+        "description": "Fund projects to provide clean and safe drinking water to communities.",
+        "price": "$6000"
+    },
+    {
+        "id": 7,
+        "picture": "https://iili.io/JpvYh0v.jpg",
+        "title": "Medical Supplies for Hospitals",
+        "category": "Healthcare",
+        "category_bg": "#8A2BE2",
+        "card_bg": "#E6E6FA",
+        "text_button_bg": "#9400D3",
+        "description": "Donate to supply hospitals with essential medical equipment.",
+        "price": "$8000"
+    },
+    {
+        "id": 8,
+        "picture": "https://example.com/campaign8.jpg",
+        "title": "Support Homeless Veterans",
+        "category": "Veteran Support",
+        "category_bg": "#A52A2A",
+        "card_bg": "#FFF5EE",
+        "text_button_bg": "#800000",
+        "description": "Provide housing and support services for homeless veterans.",
+        "price": "$7500"
+    },
+    {
+        "id": 9,
+        "picture": "https://example.com/campaign9.jpg",
+        "title": "Protect Endangered Species",
+        "category": "Wildlife Conservation",
+        "category_bg": "#32CD32",
+        "card_bg": "#F5FFFA",
+        "text_button_bg": "#2E8B57",
+        "description": "Support efforts to protect endangered species and their habitats.",
+        "price": "$6500"
+    },
+    {
+        "id": 10,
+        "picture": "https://example.com/campaign10.jpg",
+        "title": "Mental Health Awareness",
+        "category": "Mental Health",
+        "category_bg": "#8B008B",
+        "card_bg": "#F8F8FF",
+        "text_button_bg": "#4B0082",
+        "description": "Promote mental health awareness and provide resources for support.",
+        "price": "$5500"
+    },
+    {
+        "id": 11,
+        "picture": "https://example.com/campaign11.jpg",
+        "title": "Rebuild After Fire",
+        "category": "Community Support",
+        "category_bg": "#FF6347",
+        "card_bg": "#FFE4E1",
+        "text_button_bg": "#CD5C5C",
+        "description": "Help communities rebuild homes and infrastructure after devastating fires.",
+        "price": "$9500"
+    },
+    {
+        "id": 12,
+        "picture": "https://example.com/campaign12.jpg",
+        "title": "Plant a Billion Trees",
+        "category": "Reforestation",
+        "category_bg": "#228B22",
+        "card_bg": "#F0FFF0",
+        "text_button_bg": "#006400",
+        "description": "Join our mission to plant a billion trees and combat climate change.",
+        "price": "$12000"
+    }
+]
