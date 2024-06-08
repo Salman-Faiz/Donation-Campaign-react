@@ -15,10 +15,11 @@ const Cards = () => {
     return (
         <div>
             {
-                cards.map(card => <Card card={card} ></Card>)
+                cards.map((singleCard,idx) => <Card key={idx} singleCard={singleCard} ></Card>)
             }
         </div>
     );
+
 };
 
 export default Cards;

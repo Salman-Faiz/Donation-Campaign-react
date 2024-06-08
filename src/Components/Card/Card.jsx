@@ -1,10 +1,12 @@
 
+import React from 'react';
 
-const Card = ({card}) => {
-   
+const Card = ({singleCard}) => {
+    const { title}=singleCard;
+    console.log(singleCard)
     return (
         <div>
-            <h5>hhhh</h5>
+            {title}
         </div>
     );
 };

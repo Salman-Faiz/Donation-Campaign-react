@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <Navbar></Navbar>
             <Cards></Cards>
-            <Card></Card>
+            
         </div>
     );
 };
