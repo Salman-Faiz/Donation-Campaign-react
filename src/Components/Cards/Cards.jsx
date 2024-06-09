@@ -13,7 +13,7 @@ const Cards = () => {
     },[])
     console.log(cards.length)
     return (
-        <div>
+        <div className="grid md:grid-cols-4 pt-10 gap-10  mx-40">
             {
                 cards.map((singleCard,idx) => <Card key={idx} singleCard={singleCard} ></Card>)
             }
