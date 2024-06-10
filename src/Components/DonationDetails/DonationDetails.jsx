@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import'./DonationDetails.css';
 
 const DonationDetails = () => {
     const donations =useLoaderData();
@@ -15,7 +16,7 @@ const donation = donations.find( doantion => doantion.id === intId)
           <Navbar></Navbar>
           <div className="container mx-auto py-20 space-y-4">
             <div className="">
-            <img className="w-full rounded-xl h-1/2" src={donation.picture} alt="" />
+            <img className="w-full rounded-xl h-1/2 " src={donation.picture} alt="" />
             </div>
             <h2 className="text-6xl font-semibold">{donation.title}</h2>
             <p className="text-2xl ">{donation.description}</p>
