@@ -1,9 +1,10 @@
+import Navbar from "../Navbar/Navbar";
 
 
 const Statistics = () => {
     return (
         <div>
-            <h4>statistic page</h4>
+            <Navbar></Navbar>
         </div>
     );
 };

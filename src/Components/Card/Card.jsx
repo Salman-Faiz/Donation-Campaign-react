@@ -1,15 +1,17 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = ({singleCard}) => {
-    const { title,picture,category,card_bg,category_bg,text_button_bg}=singleCard;
+    const {id, title,picture,category,card_bg,category_bg,text_button_bg}=singleCard;
     console.log(singleCard)
     
     
     return (
-        <div style={{ backgroundColor: `${card_bg}` }} className='rounded-xl' >
+       <Link to={`/donationDetails/${id}`}>
+        <div  style={{ backgroundColor: `${card_bg}` }} className='rounded-xl' >
             <div>
-            <img className='w-full h-80 ' src={picture} alt="" />
+            <img className='w-full h-80 rounded-xl ' src={picture} alt="" />
           <div className='p-5'>
             <div style={{ backgroundColor: `${card_bg}` }}  className='text-2xl'>
                  
@@ -20,6 +22,7 @@ const Card = ({singleCard}) => {
           </div>
             </div>
         </div>
+       </Link>
     );
 };
 

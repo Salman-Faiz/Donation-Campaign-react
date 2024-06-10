@@ -1,9 +1,10 @@
+import Navbar from "../Navbar/Navbar";
 
 
 const Donation = () => {
     return (
         <div>
-            <h4>DOnation page</h4>
+            <Navbar></Navbar>
         </div>
     );
 };
