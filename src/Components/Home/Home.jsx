@@ -1,11 +1,12 @@
 import Card from "../Card/Card";
 import Cards from "../Cards/Cards";
-import Navbar from "../Navbar/Navbar";
+import Navbg from "../NavBg/Navbg";
+
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
+            <Navbg></Navbg>
             <Cards></Cards>
             
         </div>
