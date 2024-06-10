@@ -14,12 +14,14 @@ const donation = donations.find( doantion => doantion.id === intId)
     return (
         <div>
           <Navbar></Navbar>
-          <div className="container mx-auto py-20 space-y-4">
+          <div className="container mx-auto py-20 space-y-4 overflow-hidden relative">
             <div className="">
-            <img className="w-full rounded-xl h-1/2 " src={donation.picture} alt="" />
+            <img className="w-full rounded-xl h-2/5 " src={donation.picture} alt="" />
             </div>
             <h2 className="text-6xl font-semibold">{donation.title}</h2>
             <p className="text-2xl ">{donation.description}</p>
+            <button className={`absolute inset-x-0 bottom-72  bg-gray-900 bg-opacity-75  h-32 w-full mx-auto text-2xl text-white text-left p-5`}>donate</button>
+
           </div>
         </div>
     );
