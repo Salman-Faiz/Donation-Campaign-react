@@ -18,10 +18,12 @@ const Donation = () => {
     return (
         <div>
             <Navbar></Navbar>
-           <div className="grid md:grid-cols-2 gap-5 container mx-auto pt-10">
+           <div className=" container mx-auto pt-10">
+           <div className="grid md:grid-cols-2 gap-5">
            {
                 donations.map(singleDonation=> <SingleDonation singleDonation={singleDonation}></SingleDonation> )
             }
+           </div>
            </div>
         </div>
     );
