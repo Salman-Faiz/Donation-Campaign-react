@@ -6,9 +6,9 @@ const Navbar = () => {
     // https://iili.io/Jpvu3mu.png
     const links = <>
      
-      <li><NavLink to={'/'}>Home</NavLink></li>
-      <li><NavLink to={'/donation'}>Donation</NavLink></li>
-      <li><NavLink to={'/statistics'}>Statistics</NavLink></li>
+      <li className="text-xl font-bold"><NavLink to={'/'}>Home</NavLink></li>
+      <li className="text-xl font-bold"><NavLink to={'/donation'}>Donation</NavLink></li>
+      <li className="text-xl font-bold"><NavLink to={'/statistics'}>Statistics</NavLink></li>
      
     </>
     return (

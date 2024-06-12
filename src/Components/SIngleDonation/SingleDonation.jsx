@@ -13,8 +13,8 @@ const SingleDonation = ({singleDonation}) => {
            
            <div className="flex flex-col">
           <div className='flex-grow'>
-          <h5 style={{ backgroundColor: `${singleDonation.category_bg}`, color:`${singleDonation.text_button_bg}` }}  className="text-xl text-slate-400   py-1 w-36 rounded-lg text-center">{singleDonation.category}</h5>
-          <h2 style={{color:`${singleDonation.text_button_bg}`}}   className="text-4xl font-semibold text-slate-600">{singleDonation.title}</h2>
+          <h5 style={{ backgroundColor: `${singleDonation.category_bg}`, color:`${singleDonation.text_button_bg}` }}  className="text-xl  py-1 w-36 rounded-lg text-center">{singleDonation.category}</h5>
+          <h2 style={{color:`${singleDonation.text_button_bg}`}}   className="text-4xl font-semibold ">{singleDonation.title}</h2>
           
           </div>
           
