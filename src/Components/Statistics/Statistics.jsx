@@ -1,11 +1,16 @@
-import Navbg from "../NavBg/Navbg";
+
+
 import Navbar from "../Navbar/Navbar";
 
 
+
 const Statistics = () => {
+  
     return (
         <div>
-            <Navbg></Navbg>
+            <Navbar></Navbar>
+         
+
         </div>
     );
 };
