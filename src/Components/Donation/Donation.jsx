@@ -18,7 +18,7 @@ const Donation = () => {
     return (
         <div>
             <Navbar></Navbar>
-           <div className="grid grid-cols-2">
+           <div className="grid md:grid-cols-2 gap-5 container mx-auto pt-10">
            {
                 donations.map(singleDonation=> <SingleDonation singleDonation={singleDonation}></SingleDonation> )
             }

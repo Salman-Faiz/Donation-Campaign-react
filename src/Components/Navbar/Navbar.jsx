@@ -12,10 +12,10 @@ const Navbar = () => {
             <div className="flex justify-between  pt-10">
                 <img src="https://iili.io/Jpvu3mu.png" alt="" />
                 <nav>
-                <ul className="flex text-xl gap-4 font-semibold">
-                        <li><NavLink to={'/'}>Home</NavLink></li>
-                        <li><NavLink to={"/donation"}>Donation</NavLink></li>
-                        <li><NavLink to={'/statistics'}>Statistics</NavLink></li>
+                <ul className="flex text-xl gap-4 ">
+                        <li className="font-semibold text-xl "><NavLink to={'/'}>Home</NavLink></li>
+                        <li className="font-semibold text-xl "><NavLink to={"/donation"}>Donation</NavLink></li>
+                        <li className="font-semibold text-xl "><NavLink to={'/statistics'}>Statistics</NavLink></li>
                     </ul>
                 </nav>
             </div>
