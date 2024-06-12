@@ -18,7 +18,7 @@ const Card = ({singleCard}) => {
                  <button className=' px-3 py-1 rounded-lg font-semibold' style={{ backgroundColor: `${category_bg}  `, color:`${text_button_bg}` }}>{category}</button>
             </div>
          
-          <h2 className='text-4xl'>{title}</h2>
+          <h2 style={{color:`${text_button_bg}`}} className='text-4xl'>{title}</h2>
           </div>
             </div>
         </div>
